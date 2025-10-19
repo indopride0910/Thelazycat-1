@@ -41,9 +41,16 @@ sudo apt update && sudo apt upgrade -y
 
 # Install required tools
 sudo apt install apktool metasploit-framework default-jdk wget -y
+```
+**Installing**
+```bash
+# Download the script
+git clone https://github.com/n31nym0u2/TheLazyCat.git
 
-# Setup
-cd ~/Thelazycat && chmod +x thelazycat
+# Navigate to directory
+cd TheLazyCat
 
-# To run the script
-sudo ./thelazycat
+# Make script executable
+chmod +x thelazycat.sh
+```
+
