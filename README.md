@@ -42,7 +42,7 @@ sudo apt update && sudo apt upgrade -y
 # Install required tools
 sudo apt install apktool metasploit-framework default-jdk wget -y
 ```
-**Installing**
+**Installing the Script**
 ```bash
 # Download the script
 git clone https://github.com/n31nym0u2/TheLazyCat.git
@@ -51,6 +51,39 @@ git clone https://github.com/n31nym0u2/TheLazyCat.git
 cd TheLazyCat
 
 # Make script executable
-chmod +x thelazycat.sh
+chmod +x thelazycat
+```
+**Execute**
+```bash
+# Method 1
+sudo ./thelazycat
+
+# Method 2
+sudo bash thelazycat
 ```
 
+**This tool is provided for EDUCATIONAL and RESEARCH PURPOSES ONLY.** The primary intention of TheLazyCat is to:
+
+- 🔬 **Security Research**: Study Android persistence mechanisms
+- 🎓 **Academic Learning**: Understand mobile security vulnerabilities  
+- 🛡️ **Defensive Security**: Help developers build better protections
+- ✅ **Authorized Testing**: Conduct penetration tests with proper permission
+
+### Strictly Prohibited Uses
+❌ **Unauthorized testing** on systems you don't own
+❌ **Illegal surveillance** or spying activities  
+❌ **Malicious attacks** without explicit consent
+❌ **Criminal activities** of any kind
+❌ **Privacy violations** or data theft
+
+### Legal Compliance
+- 🎯 **Always obtain written permission** before testing
+- 🎯 **Comply with all applicable laws** and regulations
+- 🎯 **Use only in controlled environments** you own or manage
+- 🎯 **The developers assume no liability** for misuse
+
+### Ethical Guidelines
+- Use responsibly and ethically
+- Respect privacy and legal boundaries
+- Report vulnerabilities responsibly
+- Promote cybersecurity awareness
